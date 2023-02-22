@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #cad9e7;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 17rem;
+  height: auto;
+  background-color: #ffffff;
+  padding: 0.875rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 0.875rem;
+  box-shadow: 0 0 2rem #b4c7d3;
+}
+
+.card-qr--image {
+  border-radius: 0.5rem;
+  width: 16rem;
+  height: 16rem;
+}
+
+.card-text {
+  padding: 0 1.2rem;
+  padding-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+.title,
+.card-scan {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-scan {
+  font-size: 0.875rem;
+  color: rgb(152, 152, 152);
+}
